@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 24px;
+           }
+
+           table {
+            width: 600px;
+            background-color: bisque;
+            margin: 24px;
+           }
+
+           td, th {
+            padding: 16px;
+           }
+        </style>
+        <meta charset="UTF-8"></meta>
+        <title>Semantics Element</title>
+    </head>
+    <body>
+        <table>
+            <caption>Time Table</caption>
+            <tr>
+                <td rowspan="5">Hours</td>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+                </tr>
+            <tr>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Geography</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Geography</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>History</td>
+                <td>Geography</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+        </table>
+    </body>
+</html>
